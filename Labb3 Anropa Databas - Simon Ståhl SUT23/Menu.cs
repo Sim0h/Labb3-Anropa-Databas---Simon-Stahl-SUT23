@@ -16,7 +16,7 @@ namespace Labb3_Anropa_Databas___Simon_Ståhl_SUT23
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("Console Menu");
+                Console.WriteLine("DBSchool Menu");
                 Console.WriteLine("1. Show all students");
                 Console.WriteLine("2. Show specific Class");
                 Console.WriteLine("3. Add Personel");
