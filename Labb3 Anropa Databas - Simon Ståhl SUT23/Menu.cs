@@ -186,7 +186,7 @@ namespace Labb3_Anropa_Databas___Simon_Ståhl_SUT23
                         {
                             Console.Clear();
                             var Students = context.TblStudents.Where(s => s.Class == "ITP22");
-                            Console.WriteLine("Students in ITP22");
+                            Console.WriteLine("Students in ITP22: ");
                             foreach (TblStudent s in Students)
                             {
                                 Console.WriteLine($"Student ID: {s.StudentId}");
@@ -201,7 +201,7 @@ namespace Labb3_Anropa_Databas___Simon_Ståhl_SUT23
                         {
                             Console.Clear();
                             var Students = context.TblStudents.Where(s => s.Class == "MEDS17");
-                            Console.WriteLine("Students in MEDS17");
+                            Console.WriteLine("Students in MEDS17: ");
                             foreach (TblStudent s in Students)
                             {
                                 Console.WriteLine($"Student ID: {s.StudentId}");
@@ -216,7 +216,7 @@ namespace Labb3_Anropa_Databas___Simon_Ståhl_SUT23
                         {
                             Console.Clear();
                             var Students = context.TblStudents.Where(s => s.Class == "SUT23");
-                            Console.WriteLine("Students in SUT23");
+                            Console.WriteLine("Students in SUT23: ");
                             foreach (TblStudent s in Students)
                             {
                                 Console.WriteLine($"Student ID: {s.StudentId}");
